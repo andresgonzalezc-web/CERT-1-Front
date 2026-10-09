@@ -1,11 +1,14 @@
+import Header from './layouts/Header'
+import GuerrerosContainer from './containers/GuerrerosContainer'
+
 
 
 function App() {
-
   return (
     <>
+     <Header />
+     <GuerrerosContainer />
     </>
-      
   )
 }
 
